@@ -1,0 +1,3 @@
+ordinaire 32 : <A_MESURER> x <A_MESURER>
+sdf 32 : <A_MESURER> x <A_MESURER>
+ordinaire 128 : <A_MESURER> x <A_MESURER>
