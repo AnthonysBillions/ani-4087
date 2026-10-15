@@ -1,0 +1,1 @@
+<A_COLLER : la ligne de logs/app.log qui annonce murs/mur.jpg avec ses dimensions (lancer avec NK_TEX_CACHE=0 pour la revoir)>

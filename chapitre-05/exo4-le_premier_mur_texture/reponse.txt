@@ -1,0 +1,5 @@
+Ma texture : Une photo de mur carrelé prise avec mon téléphone : des carreaux blancs d'environ dix centimètres, avec des joints sombres irréguliers et quelques rayures. Elle est dans murs/mur.jpg, d'origine 4608 x 3456 ; je la réduis avant usage pour ne pas payer une texture énorme dans un casque.
+
+Ce que le mur a gagne : Avant, le mur de droite était un aplat gris, dont on ne devine pas la distance. Après, les joints dessinent des lignes qui convergent vers le point de fuite, et la taille apparente des carreaux donne l'échelle et la distance : on voit que le mur s'éloigne. Avec SetTriplanarTileSize(1.0f), la texture se répète tous les mètres, donc les carreaux gardent une taille crédible au lieu d'être étirés sur cinq mètres.
+
+Ce qui m'a bloque : Le chemin. murs/mur.jpg est relatif au dossier d'où je lance le programme ; lancé ailleurs, le mur reste de la couleur par défaut du matériau et le journal le dit. La première chose à faire est de lire logs/app.log, pas de toucher au rendu. Et la ligne de chargement n'apparaît qu'au premier chargement, à cause du cache : NK_TEX_CACHE=0 la fait réapparaître.
