@@ -1,0 +1,4 @@
+avant, projet : le mur est texture. Le chemin murs/beton.png est relatif au dossier du projet, ou il existe. <A_CONFIRMER_A_L_ECRAN>
+avant, Build : le mur garde la couleur par defaut du materiau : la texture n'est pas trouvee, le dossier murs/ n'existe pas sous Build/Bin/Debug-Windows/MaSalle/. Ligne du journal : <A_COLLER : la ligne de Build/Bin/Debug-Windows/MaSalle/logs/app.log qui nomme murs/beton.png>
+apres, projet : le mur est texture, LocateResource trouve le fichier. <A_CONFIRMER_A_L_ECRAN>
+apres, Build : le mur est texture aussi, LocateResource retrouve le fichier meme depuis Build. <A_CONFIRMER_A_L_ECRAN>
