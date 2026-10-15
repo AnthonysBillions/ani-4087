@@ -1,0 +1,5 @@
+Mon format pour un mur : PNG. Je garde la texture d'albedo d'un mur en PNG dans le projet, puis je la redimensionne au chargement.
+
+Pourquoi : Le PNG ne perd rien, ce qui compte parce que la texture sera redimensionnée et peut-être retouchée. Il pèse 10 075 902 octets contre 47 775 798 pour le BMP : environ 4,7 fois moins pour exactement les mêmes pixels. Le JPEG est bien plus petit (1 567 121 octets), mais il perd de l'information et ajoute des blocs visibles sur les joints du carrelage quand on s'approche ; je le réserve à une photo de décor lointain. Le QOI est une bonne option si le temps de chargement devient le problème : 14 775 550 octets, sans perte, et un décodage très simple.
+
+Ce qui m'a surpris : Le BMP et le TGA font presque la même taille, 47,7 Mo : ils ne compressent rien. 4608 x 3456 x 3 octets donnent 47 775 744, et il ne reste que l'en-tête (54 octets pour le BMP, 44 pour le TGA). Le JPEG est 30 fois plus petit que le brut. Et le QOI, sans perte, reste plus gros que le PNG (14,8 Mo contre 10,1 Mo) : il échange de la taille contre de la vitesse.
