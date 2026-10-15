@@ -1,0 +1,4 @@
+NK_NEAREST : <A_MESURER> us, differences : <A_MESURER>
+NK_BILINEAR : <A_MESURER> us, differences : 0
+NK_BICUBIC : <A_MESURER> us, differences : <A_MESURER>
+NK_LANCZOS3 : <A_MESURER> us, differences : <A_MESURER>
