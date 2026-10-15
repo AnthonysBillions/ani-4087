@@ -1,0 +1,9 @@
+Position 1 : Caméra près de la fenêtre. Distances choisies : minDistance 1 m, maxDistance 15 m, rolloffFactor 1. La pluie est à moins de deux mètres, côté gauche : elle doit sonner fort et franchement à gauche, avec une impression de proximité. <A_CONFIRMER_AU_CASQUE : position exacte de la caméra et ce que j'entends>
+
+Position 2 : Caméra au centre de la salle. La fenêtre est à environ deux mètres, sur le côté gauche ; la pluie doit baisser (loi en 1/d) et rester située à gauche. <A_CONFIRMER_AU_CASQUE>
+
+Position 3 : Caméra dans le coin opposé, à environ quatre mètres de la fenêtre. La pluie doit être plus faible et lointaine, toujours localisable à gauche si je tourne la tête. <A_CONFIRMER_AU_CASQUE>
+
+Sans positional : Depuis une des positions, avec positional à faux, la pluie sort au milieu des deux oreilles, avec la même intensité quelle que soit la position de la caméra : le son n'est plus placé, la fenêtre n'existe plus. C'est exactement le champ qu'on oublie. <A_CONFIRMER_AU_CASQUE>
+
+Ce que les mesures montrent : Attendu : avec positional, la source à gauche donne G > D, la source à droite D > G, la source devant G proche de D ; sans positional, G proche de D pour les trois positions, quelle que soit la position de la source. Mesuré : <A_COMPLETER_AVEC_mesures.txt : recopier les six couples G/D, dire où l'attendu est vérifié et où il ne l'est pas, et l'écart en chiffres, sans arranger les résultats>.

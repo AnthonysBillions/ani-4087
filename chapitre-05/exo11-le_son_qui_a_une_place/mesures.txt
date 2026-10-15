@@ -1,0 +1,6 @@
+gauche 1 : G <A_MESURER> D <A_MESURER>
+gauche 0 : G <A_MESURER> D <A_MESURER>
+devant 1 : G <A_MESURER> D <A_MESURER>
+devant 0 : G <A_MESURER> D <A_MESURER>
+droite 1 : G <A_MESURER> D <A_MESURER>
+droite 0 : G <A_MESURER> D <A_MESURER>
