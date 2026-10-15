@@ -1,0 +1,5 @@
+dorsal : <A_MESURER>
+frequence : <A_MESURER>
+tampon : <A_MESURER>
+latence : <A_MESURER>
+Durée calculée d'un tampon de 256 trames à 48 000 Hz : 256 / 48 000 = 0,005333 s = 5,333 ms.
