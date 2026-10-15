@@ -1,0 +1,2 @@
+charge : 0, valide : 0, largeur : 0, hauteur : 0
+<A_COLLER : la ligne de logs/app.log qui nomme murs/nexistepas.png, recopiee telle quelle>
