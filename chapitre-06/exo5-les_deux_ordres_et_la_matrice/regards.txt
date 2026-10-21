@@ -1,0 +1,4 @@
+lacet*tangage : (-0.6124, 0.5000, -0.6124)
+tangage*lacet : (-0.7071, 0.3536, -0.6124)
+matrices : (-0.6124, 0.5000, -0.6124)
+NOTE : références calculées avec conventions de rotation explicites en C++ standard. À comparer à la sortie du moteur réel ; le signe exact dépend des conventions du SDK.

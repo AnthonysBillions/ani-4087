@@ -1,0 +1,5 @@
+L'ordre que rejoint la matrice : la construction RotY(lacet) * RotX(tangage) correspond à appliquer le tangage au vecteur avant puis le lacet au résultat, avec la convention utilisée dans ce programme.
+
+L'ordre d'une tête : le mouvement doit correspondre à une rotation autour de l'axe vertical du monde, puis au tangage autour de l'axe local de la tête. Le bon ordre doit être confirmé par le commentaire et le calcul du SDK.
+
+Comment je l'ai vérifié : le regard avant est (0,0,-1) et la composante y après 30 degrés de tangage seul vaut sin(30°)=0,5. Les nombres de regards ci-dessus sont des résultats de référence autonome, pas des sorties NkQuatf ; vérifier les conventions du moteur avant soumission.
