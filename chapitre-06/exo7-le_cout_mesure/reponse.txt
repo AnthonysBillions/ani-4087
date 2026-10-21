@@ -1,0 +1,5 @@
+Le rapport : à calculer à partir des trois mesures Release de chaque variante ; comparer les médianes est plus robuste qu'une mesure isolée.
+
+Le coût par image : coût par calcul = temps total Release / 1 000 000 ; rapporter ensuite ce coût au budget de 11 ms par image. Sans mesures réelles, aucun pourcentage ne peut être affirmé.
+
+Ce que je pense du choix : le chemin matrices puis conversion est justifié s'il reste négligeable face aux 11 ms et si sa sémantique est plus claire. La conclusion définitive dépend des mesures Release réelles et d'une implémentation moteur équivalente.

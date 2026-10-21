@@ -1,0 +1,2 @@
+MESURES NON FOURNIES : ce fichier doit contenir les douze durées produites sur votre PC par le code intégré au moteur NKentseu.
+Ne pas utiliser des nombres inventés comme mesures. Lancer trois fois chaque variante en Debug et trois fois en Release, puis recopier les sorties exactes.
