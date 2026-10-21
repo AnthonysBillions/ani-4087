@@ -1,0 +1,5 @@
+Où vit le décentrage : dans les coefficients mat[2][0] et mat[2][1], qui décalent le centre optique horizontalement et verticalement dans la projection.
+
+Ce que valent ces termes en symétrique : lorsque gauche = −droite et bas = −haut, tanRight + tanLeft et tanUp + tanDown valent zéro ; les deux coefficients de décentrage s'annulent à l'arrondi près.
+
+Ce que j'ai vérifié de plus : la formule est construite à partir d'une matrice nulle et les coefficients sont rangés comme mat[colonne][ligne]. La comparaison numérique avec Perspective et NkCamera3D doit être exécutée contre le SDK réel ; les écarts ne sont pas inventés ici.

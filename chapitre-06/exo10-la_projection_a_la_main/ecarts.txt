@@ -1,0 +1,4 @@
+La matrice est calculée dans projection.cpp. Les écarts par rapport à NkMat4f::Perspective et NkCamera3D::GetProj() restent NON MESURÉS car le SDK NKentseu n'est pas fourni.
+Symétrique : vérifier que les termes de décentrage sont proches de zéro.
+Quest : les termes de décentrage doivent être non nuls puisque les angles gauche/droite et haut/bas ne sont pas symétriques.
+Remplacer ce fichier par les huit lignes d'écarts réelles après compilation avec NKMath/NkCamera.h.
