@@ -1,0 +1,5 @@
+Pourquoi un crochet déterministe : il permet d'injecter position, orientation et horodatage sans dépendre de la souris, de la fenêtre ou de l'horloge réelle.
+
+Ce que vérifie le test : les valeurs de pose et les échantillons doivent être contrôlés par assertions, pas par la simple présence d'un message « OK ».
+
+Limite actuelle : les signatures exactes et les types doivent être compilés contre les en-têtes du kit NKentseu. Le kit n'étant pas fourni, aucun résultat d'exécution ne peut être affirmé.

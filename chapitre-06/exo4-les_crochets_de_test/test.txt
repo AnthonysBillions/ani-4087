@@ -1,0 +1,4 @@
+Test 1 : DebugSetHead — à exécuter après intégration au SDK ; aucun résultat moteur disponible ici.
+Test 2 : DebugPushSample, échantillons ordonnés — à exécuter après intégration au SDK ; aucun résultat moteur disponible ici.
+Test 3 : horodatage / pose dégénérée — à exécuter après intégration au SDK ; aucun résultat moteur disponible ici.
+Codes de sortie attendus par le contrat du projet : 0 réussite, non-zéro échec. Ce fichier ne prétend pas être une exécution NKentseu.
