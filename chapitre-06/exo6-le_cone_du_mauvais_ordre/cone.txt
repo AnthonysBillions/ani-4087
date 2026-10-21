@@ -1,0 +1,5 @@
+Ce que fait le monde : dans l'ordre fautif, le haut de l'image et l'horizon changent pendant que le lacet varie alors que le tangage reste fixé à 30 degrés.
+
+Autour de quel axe : les hauteurs de référence passent de +30° à −30° quand le lacet va de 0° à 180°, signe d'une rotation du vecteur haut autour d'un axe qui n'est pas celui attendu pour le lacet du monde. Confirmer les valeurs avec le moteur, car ses conventions de multiplication peuvent différer.
+
+L'ordre fautif : le produit tangage*lacet applique le tangage dans un repère inadapté à ce mouvement. Les captures bon-90.png, mauvais-0.png et mauvais-90.png doivent être prises avec MASALLE_SHOT sur l'application réelle ; elles ne sont pas remplacées par des illustrations artificielles.
