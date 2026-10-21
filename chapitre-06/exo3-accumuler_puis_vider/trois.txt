@@ -1,0 +1,7 @@
+Démonstration autonome, pas relevé moteur :
+image 1 : fautif 0.0040 rad, correct 0.0040 rad, sans vidage 0.0040 rad
+image 2 : fautif 0.0080 rad, correct 0.0040 rad, sans vidage 0.0080 rad
+image 3 : fautif 0.0120 rad, correct 0.0040 rad, sans vidage 0.0120 rad
+image 4 : fautif 0.0160 rad, correct 0.0040 rad, sans vidage 0.0160 rad
+image 5 : fautif 0.0200 rad, correct 0.0040 rad, sans vidage 0.0200 rad
+À remplacer par les cinq lignes du programme intégré au moteur, avec l'événement réellement envoyé.
