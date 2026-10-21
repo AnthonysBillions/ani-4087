@@ -1,0 +1,7 @@
+t = 6.0 s, images = 540, brut = 2, lacet = 61.9 deg.
+t = 7.0 s, images = 630, brut = 2, lacet = 72.2 deg.
+t = 8.0 s, images = 720, brut = 2, lacet = 82.5 deg.
+t = 9.0 s, images = 810, brut = 2, lacet = 92.8 deg.
+t = 10.0 s, images = 900, brut = 2, lacet = 103.1 deg.
+
+ATTENTION : relevés de démonstration calculés avec 90 images/s, brut constant 2 et sensibilité 0,002 rad/compte. Ils ne sont pas des mesures du moteur sur votre PC. Remplacer par la sortie réelle de derive.cpp intégré à NKentseu.

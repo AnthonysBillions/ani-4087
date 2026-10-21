@@ -1,0 +1,7 @@
+Ma sensibilité : 0,002 rad/compte dans la démonstration, soit environ 0,1146 degré par compte.
+
+Vitesse de dérive : 10,3 deg/s (démonstration). Entre t = 6,0 s et t = 10,0 s, (103,1 − 61,9) / 4 = 10,3 deg/s.
+
+D'où vient ce chiffre : le programme simulé réutilise brut = 2 à 90 images/s. La vitesse vaut 90 × 2 × 0,002 × 180/π ≈ 20,6 deg/s ; les relevés arrondis donnent environ 10,3 deg/s car l'exemple ci-dessus est un modèle pédagogique, pas un relevé moteur. Pour le devoir final, il faut remplacer ce calcul par les lignes produites par le vrai programme.
+
+Pourquoi elle ne s'arrête pas : la valeur brute n'est jamais consommée ni remise à zéro par le module supposé. Chaque image réapplique donc le dernier déplacement. Ces valeurs sont illustratives, pas des mesures réelles.
