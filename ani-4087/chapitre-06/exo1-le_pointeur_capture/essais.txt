@@ -1,0 +1,7 @@
+Avec CaptureMouse seul : observation à faire sur le kit réel ; la capture ne garantit pas à elle seule que le curseur soit confiné aux limites client. Noter ce que fait le système utilisé.
+
+Ce qui le retient : vérifier l'effet de ClipMouseToClient(true), qui demande au système de limiter le pointeur à la zone cliente de la fenêtre.
+
+Deux appuis de suite : vérifier si ShowMouse(false) est un compteur de visibilité ou un simple état. Deux appels identiques peuvent donc ne pas s'annuler ; consigner l'observation réelle.
+
+Fermeture sans relâcher : fermer par la croix et vérifier que le programme restaure visibilité, capture et confinement dans son chemin de sortie. Cette observation doit être faite avec le moteur, elle n'est pas simulée ici.
