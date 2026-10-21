@@ -1,0 +1,3 @@
+Deux yeux : NON MESURÉ — requiert oeil-gauche.png et oeil-droit.png issus du rendu réel.
+Vue oubliée : NON MESURÉ — requiert les deux captures de contrôle sans décalage des caméras.
+Ne pas remplacer ces mesures par des nombres fictifs.

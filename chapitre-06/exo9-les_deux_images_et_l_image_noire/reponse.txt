@@ -1,0 +1,5 @@
+Ce qui diffère le plus : à renseigner après inspection de difference.png et de difference-vue-oubliee.png. Les pixels et l'écart maximal doivent provenir du programme de comparaison.
+
+Pourquoi là : une différence liée à la stéréoscopie se concentre généralement autour des objets dont la profondeur et les contours changent entre les deux points de vue ; l'image réelle est nécessaire pour identifier les zones précises.
+
+Ce que prouve le noir : un pixel noir dans l'image de différence indique une différence calculée nulle à cet endroit, mais ne prouve pas que les deux images d'origine sont valides : deux images blanches ou noires donneraient aussi une différence noire.
