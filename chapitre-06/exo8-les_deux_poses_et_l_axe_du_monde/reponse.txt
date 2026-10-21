@@ -1,0 +1,5 @@
+Quand les deux méthodes s'accordent : pour la tête neutre, la droite locale est l'axe +X du monde ; les positions sont identiques et l'écart vaut 0 mm.
+
+Quand elles divergent : le roulis incline la droite locale et produit un écart non nul ; le lacet de 90° tourne la droite de la tête vers l'axe de profondeur, alors que la méthode monde continue de décaler selon X. Les valeurs du fichier sont des résultats de référence autonome, à confirmer avec NKQuatf.
+
+Ce qu'un visiteur sentirait : l'écart le long de la profondeur modifierait la parallaxe et la fusion stéréoscopique ; le monde pourrait sembler déformé ou inconfortable. L'écart interpupillaire doit être appliqué dans le repère de la tête.
