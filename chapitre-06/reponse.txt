@@ -1,5 +1,0 @@
-La version fautive : réutilise le dernier delta du module à chaque image ; elle continue à tourner après l'arrêt.
-
-La version juste : additionne les événements bruts reçus et consomme l'accumulateur une fois par image, puis le remet à zéro. En l'absence de nouvel événement, la rotation n'augmente plus.
-
-La version sans vidage : garde dans son propre accumulateur le déplacement précédent et le réapplique ; elle reproduit la dérive, cette fois dans le code applicatif. Les nombres présents sont illustratifs et doivent être remplacés par une exécution réelle du moteur.
